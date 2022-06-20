@@ -1,4 +1,7 @@
+
 body {
+    background-color:  rgb(25, 33, 41);
+    color:  rgb(255,255,255);
     padding: 0;
     margin: 0;
     padding-top: 100px;
@@ -6,6 +9,30 @@ body {
 
 }
 
+input{
+    background-color:aliceblue;
+    border-radius: 6px;
+}
+
+.form-border{
+    border-color: blue;
+    margin: 100px;
+}
+
 #form-container {
-    margin: auto;
+    margin: 50px 150px;
+    padding: 20px 20px;
+    border-style: solid;
+    border-color: rgb(67, 163, 230);
+}
+
+#comment-box{
+    padding: 40px 2px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(67, 163, 230);
+    padding: 4px 4px;
+    color: white;
 }
